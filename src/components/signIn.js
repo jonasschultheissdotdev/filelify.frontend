@@ -13,7 +13,7 @@ const signIn = props => {
         <Form.Control type="password" placeholder="Password" />
       </Form.Group>
 
-      <Button variant="dark" type="">
+      <Button variant="dark" onClick={() => props.signIn}>
         Sign in
       </Button>
     </Form>
